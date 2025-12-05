@@ -2,7 +2,7 @@
 setlocal
 
 REM --- Configuration ---
-set PORT=8000
+set PORT=8010
 set HTML_FILE=Claude.html
 
 REM --- Launcher ---
