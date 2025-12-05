@@ -1,17 +1,14 @@
-# Claude Local (fork en español)
+# Claude Local - Varios modelos
 
 Interfaz web local para usar modelos de IA vía Puter, inspirada en la UI oficial de Claude.  
 Funciona en tu navegador y se ejecuta con un servidor local muy sencillo (sin backend propio).
 
-Este repositorio es un fork de  
+Este repositorio es una versión mejorada del repositorio original de: 
 👉 [hassanmsthf11/unlimited-claude-AI](https://github.com/hassanmsthf11/unlimited-claude-AI).  
-La base del proyecto y el mérito original son de Hassan; esta versión está adaptada y traducida para uso personal en español.
 
 ---
 
-## Cambios y mejoras en esta versión
-
-En comparación con el repositorio original, esta variante incluye:
+## Cambios y mejoras en esta versión:
 
 - 🗣️ **Interfaz traducida al español**  
   Textos de botones, mensajes de ayuda y avisos adaptados.
@@ -28,15 +25,14 @@ En comparación con el repositorio original, esta variante incluye:
   - Mensajes de error más claros cuando Puter no responde o hay problemas de uso.  
   - Flujo de autenticación manual ligeramente mejor explicado.
 
-- 🎨 **Personalización visual**  
-  - Textos tipo “Claude Local” / “Buenos días desde dupavi.es”.  
+- 🎨 **Personalización visual**   
   - Colores y pequeños detalles visuales adaptados.
 
 La lógica principal de conexión con Puter.js y el uso de modelos de IA sigue el diseño del proyecto original.
 
 ---
 
-## Requisitos
+## Requisitos:
 
 - 🐍 **Python 3**  
   Solo se usa para levantar el servidor local con `http.server`.  
@@ -47,7 +43,7 @@ La lógica principal de conexión con Puter.js y el uso de modelos de IA sigue e
 
 ---
 
-## Cómo ejecutar en local
+## Cómo ejecutar en local:
 
 ### Windows
 
@@ -55,7 +51,7 @@ La lógica principal de conexión con Puter.js y el uso de modelos de IA sigue e
 2. Entra en la carpeta del proyecto.
 3. Dentro de `unlimited claude`, haz doble clic en `run_server.bat`.
 4. Se abrirá una ventana de consola y tu navegador irá a una URL tipo:  
-   `http://localhost:8000/Claude.html` (o el puerto que especifique el script).
+   `http://localhost:8010/Claude.html` (o el puerto que especifique el script).
 
 ### Mac / Linux / otros
 
